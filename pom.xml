@@ -8,5 +8,22 @@
     <artifactId>test</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+         <properties>
+		<java.version>1.8</java.version>
+		<project.scm.id>github</project.scm.id>
+	</properties>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub</name>
+			<url>https://maven.pkg.github.com/PuneetKumarGoyal/custom-workflows</url>
+		</repository>
+	</distributionManagement>
+
+	<scm>
+		<developerConnection>scm:git:https://github.com/PuneetKumarGoyal/custom-workflows.git</developerConnection>
+	  <tag>HEAD</tag>
+  </scm>
 
 </project>
